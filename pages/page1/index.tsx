@@ -3,7 +3,7 @@ import styles from './page1.module.scss'
 const page1 = () => {
     return (
         <div>
-            Enter
+            This is page 1
         </div>
     )
 }

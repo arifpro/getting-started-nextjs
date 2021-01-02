@@ -2,6 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.scss";
 import jwt from "jsonwebtoken";
+import Link from "next/link";
 
 const Home = () => {
   const [username, setUsername] = useState<string>("");
@@ -86,6 +87,10 @@ const Home = () => {
         <br />
         <input type="submit" defaultValue="Login" />
       </form>
+
+      <br />
+      <br />
+      <Link href="/page1">Go to Page 1</Link>
     </div>
   );
 };
