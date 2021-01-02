@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/index.module.scss'
+import styles from './index.module.scss'
 
 const Home = () => {
   return (
